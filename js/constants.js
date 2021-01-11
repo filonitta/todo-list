@@ -1,5 +1,8 @@
+// @ts-nocheck
 const $formAddTask = $('#formAddTask');
 const $modalAddTask = $('#modalAddTask');
+const $modalEditTask = $('#modalEditTask');
+const $formEditTask = $('#formEditTask');
 
 const statuses = {
 	'TODO': 1,
@@ -10,5 +13,7 @@ const statuses = {
 export {
 	$formAddTask,
 	$modalAddTask,
-	statuses
+	statuses,
+	$modalEditTask,
+	$formEditTask
 }
